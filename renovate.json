@@ -8,8 +8,8 @@
   "customManagers": [
     {
       "customType": "regex",
-      "fileMatch": [
-        "^versions.yaml$"
+      "managerFilePatterns": [
+        "/^versions.yaml$/"
       ],
       "matchStrings": [
         "datasource=(?<datasource>\\S+) depName=(?<depName>\\S+)\\n.*?\"(?<currentValue>.*)\"\\n"

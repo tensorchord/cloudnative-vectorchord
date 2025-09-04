@@ -81,7 +81,7 @@ jobs:
           fi
 
       - name: Determine image push
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         id: should-release
         with:
           script: |

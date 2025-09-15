@@ -9,4 +9,4 @@ cnpg:
   - "17.5"
 vectorchord:
   # renovate: datasource=github-releases depName=tensorchord/VectorChord
-  - "0.5.1"
+  - "0.5.2"

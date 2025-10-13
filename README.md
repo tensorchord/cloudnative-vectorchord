@@ -17,7 +17,7 @@ Container images for [cloudnative-pg](https://cloudnative-pg.io/) with the [Vect
 >   ```
 
 > [!IMPORTANT]
-> The `VectorChord` extension is not enabled by default. You need to enable it and set the search path when initializing the database. You can configure it in your Cluster spec:
+> The `VectorChord` extension is not enabled by default. You need to enable it when initializing the database. You can configure it in your Cluster spec:
 > ```yaml
 > apiVersion: postgresql.cnpg.io/v1
 > kind: Cluster

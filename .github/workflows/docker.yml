@@ -23,7 +23,7 @@ jobs:
       matrix: ${{ steps.get-versions.outputs.result }}
     steps:
      - name: Checkout to repository
-       uses: actions/checkout@v5
+       uses: actions/checkout@v6
      - name: Get dependency versions
        uses: mikefarah/yq@v4.48.2
        id: get-versions
@@ -40,7 +40,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 

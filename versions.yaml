@@ -11,4 +11,4 @@ cnpg:
   - "18.1"
 vectorchord:
   # renovate: datasource=github-releases depName=tensorchord/VectorChord
-  - "1.0.0"
+  - "1.1.0"
